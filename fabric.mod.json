@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "id": "sprinthud",
+  "version": "${version}",
+  "name": "Sprint HUD",
+  "description": "Shows a [sprinting toggled] label in the top left. Configurable in Mod Menu.",
+  "authors": ["WrDawn"],
+  "icon": "icon.png",
+  "environment": "client",
+  "entrypoints": {
+    "client": ["com.WrDawn.sprinthud.SprintHudClient"],
+    "modmenu": ["com.WrDawn.sprinthud.ModMenuIntegration"]
+  },
+  "depends": {
+    "fabricloader": ">=0.18.1",
+    "minecraft": "~1.21.11",
+    "java": ">=21",
+    "fabric-api": "*"
+  },
+  "suggests": {
+    "modmenu": "*"
+  }
+}
