@@ -10,7 +10,7 @@ import net.minecraft.resources.Identifier;
 public class SprintHudClient implements ClientModInitializer {
     // Text and look. Change these to taste.
     private static final String TEXT = "[sprinting toggled]";
-    private static final float SCALE = 1.5f;   // 1.0 = vanilla size
+    private static final float SCALE = 1.0f;   // 1.0 = vanilla size
     private static final int X = 6;
     private static final int Y = 6;
     private static final int COLOR = 0xFFFFFFFF; // ARGB, white
